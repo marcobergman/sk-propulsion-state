@@ -66,9 +66,9 @@ module.exports = function(app) {
         default: 30},
 
       gpioPortNumber: {
-        type: 'number',
+        type: 'string',
         title: 'GPIO input port that tells whether the engine is on or off',
-        default: 26},
+        default: '26'},
 		
       gpioPortValue: {
         type: 'number',

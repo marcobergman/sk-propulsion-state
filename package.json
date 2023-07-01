@@ -1,6 +1,6 @@
 {
   "name": "sk-propulsion-state",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SignalK node server plugin that reads a GPIO port and reflects it into propulsion.main.state",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,6 @@
   ],
   "author": "marcobergman@gmail.com",
   "dependencies": {
-    "date-and-time": "^2.3.0",
-    "dateformat": "^5.0.3",
-    "fast-csv": "^4.3.6",
 	"onoff": "^5.0.0"
   },
   "repository": "https://github.com/marcobergman/sk-propulsion-state"
